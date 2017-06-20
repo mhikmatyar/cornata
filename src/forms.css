@@ -1,0 +1,22 @@
+.ng-valid[required], .ng-valid.required  {
+  border-left: 5px solid #42A948; /* green */
+}
+
+.ng-invalid:not(form)  {
+  border-left: 5px solid #a94442; /* red */
+}
+.form-title{
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.login-options {
+    margin-top: 65px;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.btn-circle {
+    border-radius: 25px!important;
+    overflow: hidden;
+}
